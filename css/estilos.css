@@ -5,7 +5,8 @@ body {
 }
 
 #contacto,
-#inicio {
+#inicio,
+#confirmacion {
     background-image: url("../images/fondo-contacto.png");
     background-size: cover;
 }
@@ -336,7 +337,7 @@ li {
 
 @media (max-width:750px) {
 
-    #contacto, #inicio {
+    #contacto, #inicio, #confirmacion {
         background-image: url("../images/fondo-proyectos.png");
         background-size: contain;
         background-repeat: no-repeat;
